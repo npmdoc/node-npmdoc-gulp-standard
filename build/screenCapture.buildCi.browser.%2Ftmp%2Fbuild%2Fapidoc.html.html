@@ -47,12 +47,21 @@
 }
 </style>
 <h1>api documentation for
-    <a href="https://github.com/emgeee/gulp-standard">gulp-standard (v9.0.0)</a>
+    <a href="https://github.com/emgeee/gulp-standard">gulp-standard (v10.0.0)</a>
 </h1>
 <h4>gulp plugin for checking JavaScript code with the standard syntax</h4>
 <div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-standard">module gulp-standard</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-standard.gulp-standard">
+            function <span class="apidocSignatureSpan"></span>gulp-standard
+            <span class="apidocSignatureSpan">(opts)</span>
+            </a>
+
+        </li>
 
         <li>
 
@@ -69,6 +78,41 @@
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.gulp-standard" id="apidoc.module.gulp-standard">module gulp-standard</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-standard.gulp-standard" id="apidoc.element.gulp-standard.gulp-standard">
+        function <span class="apidocSignatureSpan"></span>gulp-standard
+        <span class="apidocSignatureSpan">(opts)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function gulpStandard(opts) {
+  opts = opts || {}
+
+  function processFile (file, enc, cb) {
+    if (file.isNull()) {
+      return cb(null, file)
+    }
+
+    if (file.isStream()) {
+      return cb(new gutil.PluginError(PLUGIN_NAME, 'Streams are not supported!'))
+    }
+
+    standard.lintText(String(file.contents), opts, function (err, data) {
+      if (err) {
+        return cb(err)
+      }
+      file.standard = data
+      cb(null, file)
+    })
+  }
+
+  return through2.obj(processFile)
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 
     <h2>
