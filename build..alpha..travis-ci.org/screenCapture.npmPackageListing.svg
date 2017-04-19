@@ -1,16 +1,16 @@
 <svg height="206" width="720" xmlns="http://www.w3.org/2000/svg">
 <rect height="206" fill="#555" width="720"></rect>
 <text fill="#7f7" font-family="Courier New" font-size="12" xml:space="preserve">
-<tspan x="10" y="26">  0.  2017-04-19 07:43:17 +0000    12372 bytes  .</tspan>
-<tspan x="10" y="42">  1.  2017-04-19 07:43:17 +0000     1077 bytes  LICENSE</tspan>
-<tspan x="10" y="58">  2.  2017-04-19 07:43:17 +0000     1999 bytes  README.md</tspan>
-<tspan x="10" y="74">  3.  2017-04-19 07:43:17 +0000      184 bytes  example/app.js</tspan>
-<tspan x="10" y="90">  4.  2017-04-19 07:43:17 +0000      254 bytes  example/gulpfile.js</tspan>
-<tspan x="10" y="106">  5.  2017-04-19 07:43:17 +0000     1294 bytes  index.js</tspan>
-<tspan x="10" y="122">  6.  2017-04-19 07:43:17 +0000     2698 bytes  package.json</tspan>
-<tspan x="10" y="138">  7.  2017-04-19 07:43:17 +0000     2917 bytes  reporters/stylish.js</tspan>
-<tspan x="10" y="154">  8.  2017-04-19 07:43:17 +0000       50 bytes  test/fixtures/testFile1.js</tspan>
-<tspan x="10" y="170">  9.  2017-04-19 07:43:17 +0000       40 bytes  test/fixtures/testFile2.js</tspan>
-<tspan x="10" y="186"> 10.  2017-04-19 07:43:17 +0000     1859 bytes  test/index.js</tspan>
+<tspan x="10" y="26">  0.  2017-04-19 07:44:34 +0000    12372 bytes  .</tspan>
+<tspan x="10" y="42">  1.  2017-04-19 07:44:34 +0000     1077 bytes  LICENSE</tspan>
+<tspan x="10" y="58">  2.  2017-04-19 07:44:34 +0000     1999 bytes  README.md</tspan>
+<tspan x="10" y="74">  3.  2017-04-19 07:44:34 +0000      184 bytes  example/app.js</tspan>
+<tspan x="10" y="90">  4.  2017-04-19 07:44:34 +0000      254 bytes  example/gulpfile.js</tspan>
+<tspan x="10" y="106">  5.  2017-04-19 07:44:34 +0000     1294 bytes  index.js</tspan>
+<tspan x="10" y="122">  6.  2017-04-19 07:44:34 +0000     2698 bytes  package.json</tspan>
+<tspan x="10" y="138">  7.  2017-04-19 07:44:34 +0000     2917 bytes  reporters/stylish.js</tspan>
+<tspan x="10" y="154">  8.  2017-04-19 07:44:34 +0000       50 bytes  test/fixtures/testFile1.js</tspan>
+<tspan x="10" y="170">  9.  2017-04-19 07:44:34 +0000       40 bytes  test/fixtures/testFile2.js</tspan>
+<tspan x="10" y="186"> 10.  2017-04-19 07:44:34 +0000     1859 bytes  test/index.js</tspan>
 </text>
 </svg>
